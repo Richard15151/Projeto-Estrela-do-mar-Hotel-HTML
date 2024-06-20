@@ -1,0 +1,342 @@
+/* 
+Trabalho de tcc do primeiro semestre
+estrela do mar hotel
+Fonte: poppins (Regular e bold)
+cor ciano #00B5B2
+cor azul escuro #0075AA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+    /* border: red 1px solid; */
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header */
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 90px;
+    width: 230px;
+    margin-left: 75px;
+}
+.menu nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Poppins';
+    color: #00B5B2;
+}
+.menu nav a:hover {
+    text-decoration: underline; /* Sublinhamento ao passar o mouse */
+}
+/* body */
+#quartos{
+    height: 100vh;
+}
+#localizacao, #reservas{
+    height: 60vh;
+}
+#rodape{
+    height: 20vh;
+}
+/* coisas da home */
+#home{
+    height: 70vh;
+    background-color: #BCD0EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url(img1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+.estreladomar, .hotel2, .fraseefeito{
+    font-size: 48px;
+    font-family: 'Poppins';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.nomehome{
+    width: 33%;
+}
+.estreladomar{
+    font-weight: 700;
+}
+.hotel2{
+    font-weight: 400;
+    margin-left: 61%;
+}
+.fraseefeito{
+    font-weight: 300;
+    width: 42%;
+}
+/* coisas do sobre */
+#sobre{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+}
+.fotohotel{
+    width: 350px;
+    height: 350px;
+}
+.fotohotel img{
+    border-radius: 5%;
+}
+.sobrehotel{
+    height: 80%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobrehotel h1{
+    font-size: 36px;
+    width: 28%;
+    margin-bottom: 5%;
+    color: #00B5B2;
+}
+.sobrehotel p {
+    font-size: 24px;
+}
+/* coisasdoquartos */
+#quartos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobre h1, .quartos2 h1, .quartos2 p, .quartos3 p, .quartos3 h1, .sobrehotel h1, .sobrehotel p{
+    font-family: 'Poppins';
+}
+.sobre, .suitequartos{
+    width: 95%;
+}
+.sobre{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre h1{
+    width: 12,5%;
+    font-size: 36px;
+}
+.suitequartos{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quartos2, .quartos3{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quartos2 h1, .quartos3 h1{
+    margin-bottom: 2%;
+    color: #00B5B2;
+}
+.quartos2 h1{
+    width: 45%;
+}
+.quartos3 h1{
+    width: 27%;
+}
+.quartos3 p, .quartos2 p{
+    margin-bottom: 1%;
+}
+.fotos{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.quadrados{
+    height: 180px;
+    width: 180px;
+    margin: 1%;
+}
+.quadrados:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* coisasdaloc */
+#localizacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:#D9D9D9;
+}
+.locfoto, .locescrita{
+    height: 95%;
+}
+.locfoto{
+    width: 350px;
+    height: 350px;
+}
+.locfoto img{
+    border-radius: 5%;
+}
+.locfoto:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.locescrita{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tituloloc, .endereco{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloloc, .textoloc, .endereco{
+    font-family: 'Poppins';
+}
+.tituloloc{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #00B5B2;
+}
+.textoloc{
+    font-weight: 400;
+    font-size: 20px;
+}
+.endereco{
+    margin-top:50px;
+    font-weight: 700;
+    font-size: 28px;
+}
+/* coisasdocheckinecanais */
+#reservas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: 
+    white;
+}
+.checkcanais{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.checkin, .canais{
+    height: 100%;
+    width: 45%;
+}
+.checkin, .canais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checks{
+    height: 50px;
+    width: 75%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.contatos{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.checks p{
+    font-family: 'Poppins';
+    margin-right: 10px;
+}
+.contatos p{
+    font-family: 'Poppins';
+    margin-left: 10px;
+}
+.canais h1, .tituloreservas{
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+.botao{
+    font-family: 'Poppins';
+    background-color: 
+    #494273;
+    height: 40px;
+    width: 180px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.tituloreservas{
+    color: #00B5B2;
+}
+
+/* coisas do footer */
+footer{
+    height: 15vh;
+    background-color: #D9D9D9;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    width: 200px;
+    /* margin-right: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+.miniloc{
+    width: 12,5%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #00B5B2;
+}
+.bi-facebook, .bi-whatsapp, .bi-instagram, .bi-envelope{
+    font-size: 45px;
+    color: #00B5B2;
+}
