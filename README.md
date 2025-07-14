@@ -43,7 +43,6 @@ Para ver o projeto em seu navegador, siga estes passos:
 
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
-(Lembre-se de substituir seu-usuario/nome-do-repositorio pelo caminho correto do seu repositório no GitHub ou onde ele estiver hospedado.)
 
 2. Navegue até a pasta do projeto:
 
